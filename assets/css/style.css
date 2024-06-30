@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: grey;
+}
+
+
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    color: rgb(49, 131, 209);
+    text-shadow: 2px 3px 1px rgb(44, 44, 44);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: antiquewhite;
+
+}
+
+.section-form {
+    width: 600px;
+    margin: 0 auto;
+    background-color: rgb(53, 42, 75);
+    padding: 0 20px 20px 20px;
+    border: 2px solid rgb(37, 34, 34);
+
+}
+
+.section-form,
+.user-table {
+    width: 500px;
+}
